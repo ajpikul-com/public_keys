@@ -2,6 +2,4 @@
 
 All ajp's public keys.
 
-You can put a line at the end of your `authorized_keys` file like:
-
-`AuthorizedKeyFile ~/systems/public_keys/ajp`
+You can search `AuthorizedKeysFile` in `/etc/ssh/sshd_config` and add this file directly to it
